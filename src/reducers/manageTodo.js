@@ -7,7 +7,9 @@ export default function manageTodo(state = {
 
       return { todos: state.todos.concat(action.payload.text) };
       
-      
+      case 'DELETE_TODO':
+        
+        
 
     default:
       return state;
